@@ -1,0 +1,24 @@
+.buttonPrimary a button {
+  width: 200px;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 25px;
+  border: none;
+  background-color: #6cd4dd;
+  color: white;
+  float: right;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+@media (max-width: 550px) {
+  .buttonPrimary a button {
+    width: 100px;
+    font-size: 18px;
+  }
+}
+
+.buttonPrimary a button:hover {
+  background-color: #45ecfc;
+}
+/*# sourceMappingURL=buttonPrimary.css.map */

@@ -1,0 +1,127 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a .cardPokemon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 120px;
+}
+
+a .cardPokemon.grass {
+  background-color: #90b78f;
+}
+
+a .cardPokemon.fire {
+  background-color: #e3655b;
+  color: white;
+}
+
+a .cardPokemon.normal {
+  background-color: white;
+}
+
+a .cardPokemon.water {
+  background-color: #34e5ff;
+}
+
+a .cardPokemon.bug {
+  background-color: #dbfe87;
+}
+
+a .cardPokemon.poison {
+  background-color: #6761a8;
+  color: white;
+}
+
+a .cardPokemon.electric {
+  background-color: #f9dc5c;
+}
+
+a .cardPokemon.ground {
+  background-color: #a1817d;
+}
+
+a .cardPokemon.fairy {
+  background-color: #f7bfb4;
+}
+
+a .cardPokemon.fighting {
+  background-color: #c7dbe6;
+}
+
+a .cardPokemon.psychic {
+  background-color: #7a7978;
+  color: white;
+}
+
+a .cardPokemon.rock {
+  background-color: #8d99ae;
+  color: white;
+}
+
+a .cardPokemon.ghost {
+  background-color: #dfc2f2;
+}
+
+a .cardPokemon.dragon {
+  background-color: #f5cb5c;
+}
+
+a .cardPokemon.dark {
+  background-color: black;
+  color: white;
+}
+
+a .cardPokemon.steel {
+  background-color: #779cab;
+  color: white;
+}
+
+a .cardPokemon.ice {
+  background-color: #55c1ff;
+}
+
+a .cardPokemon img {
+  width: 100%;
+  height: 100px;
+}
+
+a .cardPokemon:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+@media (max-width: 680px) {
+  a .cardPokemon:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@media (max-width: 420px) {
+  a .cardPokemon {
+    width: 150px;
+  }
+}
+/*# sourceMappingURL=cardPokemon.css.map */

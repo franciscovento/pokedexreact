@@ -1,0 +1,51 @@
+.searchPage {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+  padding: 50px 0px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .loading {
+    font-size: 50px;
+  }
+  .searchPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .user {
+      position: absolute;
+      left: 30px;
+      top: 10px;
+    }
+
+    .logoutbutton {
+      position: absolute;
+      right: 30px;
+      top: 10px;
+      padding: 5px;
+    }
+
+    .sectionCard {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .buttonsContainerTypeNext {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: auto;
+      button {
+        width: 150px;
+        font-size: 20px;
+        margin: 10px;
+      }
+    }
+  }
+}

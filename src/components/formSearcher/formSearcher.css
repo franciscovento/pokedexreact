@@ -1,0 +1,76 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.form .inputButtonContainer {
+  width: 500px;
+}
+
+.form .inputButtonContainer input {
+  width: 100%;
+  padding: 10px;
+}
+
+.form .inputButtonContainer .sugesstionsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  min-height: 50px;
+}
+
+.form .inputButtonContainer .sugesstionsContainer span {
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.form .inputButtonContainer .sugesstionsContainer a {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.form .inputButtonContainer .sugesstionsContainer a:hover {
+  color: #90b78f;
+}
+
+@media (max-width: 550px) {
+  .form .inputButtonContainer {
+    width: 320px;
+  }
+}
+
+.form select {
+  margin-top: 10px;
+  width: 300px;
+}
+/*# sourceMappingURL=formSearcher.css.map */

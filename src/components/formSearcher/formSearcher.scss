@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  .inputButtonContainer {
+    width: 500px;
+    input {
+      width: 100%;
+      padding: 10px;
+    }
+    .sugesstionsContainer {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      min-height: 50px;
+      span {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-right: 5px;
+        margin-top: 5px;
+      }
+      a {
+        margin-right: 10px;
+        margin-bottom: 5px;
+      }
+      a:hover {
+        color: #90b78f;
+      }
+    }
+  }
+  @media (max-width: 550px) {
+    .inputButtonContainer {
+      width: 320px;
+    }
+  }
+
+  select {
+    margin-top: 10px;
+    width: 300px;
+  }
+}
